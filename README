@@ -1,0 +1,13 @@
+YAWK is Yet Another Watchdog Kicker.
+
+It was designed for the OpenDingux project, but can be used with
+any device equipped with a watchdog.
+It aims to be simple, and provides the basic functionnalities.
+
+Usage: yawk [OPTIONS...]
+
+-h, --help      Display this help and exit.
+-d, --device    Select the watchdog device (default: "/dev/watchdog").
+-k, --kick-period       Period (in seconds) between two kicks (default: 1).
+-t, --timeout   Number of seconds before the watchdog resets the device.
+
