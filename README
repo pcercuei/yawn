@@ -2,7 +2,7 @@ YAWN is Yet Another Watchdog Nudger.
 
 It was designed for the OpenDingux project, but can be used with
 any device equipped with a watchdog.
-It aims to be simple, and provides the basic functionnalities.
+It aims to be simple, and provides the basic functionalities.
 
 Usage: yawn [OPTIONS...]
 
