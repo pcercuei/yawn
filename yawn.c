@@ -40,7 +40,7 @@ static void close_and_quit(int sig)
 
 static void show_usage()
 {
-	printf("Usage: yawk [OPTIONS...]\n\n"
+	printf("Usage: yawn [OPTIONS...]\n\n"
 				"\t-h, --help\t\tDisplay this help and exit.\n"
 				"\t-d, --device\t\tSelect the watchdog device (default: \"/dev/watchdog\").\n"
 				"\t-k, --kick-period\tPeriod (in seconds) between two kicks (default: 1).\n"

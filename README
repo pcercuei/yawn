@@ -1,10 +1,10 @@
-YAWK is Yet Another Watchdog Kicker.
+YAWN is Yet Another Watchdog Nudger.
 
 It was designed for the OpenDingux project, but can be used with
 any device equipped with a watchdog.
 It aims to be simple, and provides the basic functionnalities.
 
-Usage: yawk [OPTIONS...]
+Usage: yawn [OPTIONS...]
 
 -h, --help		Display this help and exit.
 -d, --device		Select the watchdog device (default: "/dev/watchdog").
