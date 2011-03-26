@@ -41,10 +41,10 @@ static void close_and_quit(int sig)
 static void show_usage()
 {
 	printf("Usage: yawk [OPTIONS...]\n\n"
-				"\t-h, --help\tDisplay this help and exit.\n"
-				"\t-d, --device\tSelect the watchdog device (default: \"/dev/watchdog\").\n"
+				"\t-h, --help\t\tDisplay this help and exit.\n"
+				"\t-d, --device\t\tSelect the watchdog device (default: \"/dev/watchdog\").\n"
 				"\t-k, --kick-period\tPeriod (in seconds) between two kicks (default: 1).\n"
-				"\t-t, --timeout\tNumber of seconds before the watchdog resets the device.\n");
+				"\t-t, --timeout\t\tNumber of seconds before the watchdog resets the device.\n");
 }
 
 int main(int argc, char **argv)
